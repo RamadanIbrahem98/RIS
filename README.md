@@ -5,7 +5,6 @@
 * [Toolbox](#toolbox)
 * [Setting Up the Environment](#setting-up-the-environment)
 * [Working Demo of the System](#working-demo-of-the-system)
-* [Extra Information Missed in The Video](#extra-information-missed-in-the-video)
 * [Our Team](#our-team)
 * [Acknowledgements](#acknowledgements)
 * [About](#about)
@@ -59,7 +58,7 @@ This is a Radiology Information System MVP project implementing the core concept
     ```sh
     pip install -r requirements.txt
     ```
-1. Set Up the Environment Variables in the **HIS/\_\_init\_\_.py** file with your own.
+1. Set Up the Environment Variables in the **RIS/\_\_init\_\_.py** file with your own.
     * SECRET_KEY: Is a random secret key used to log sessions.
     * SQLALCHEMY_DATABASE_URI: Is the URI of your database
     * MAIL_USERNAME: Your gmail account.
@@ -91,11 +90,6 @@ You can find a video demo here
 ```
 https://youtu.be/JKOfDyNr8GI
 ```
-
-## Extra Information Missed in The Video
-
-* The Credentials.txt file contains useres with their credentials
-* Receptionist can access the history of all of the patients in the system
 
 ## Our Team
 
