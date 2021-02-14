@@ -157,10 +157,3 @@ class PatientScanForm(FlaskForm):
 class UploadScanForm(FlaskForm):
     picture = FileField('Update profile picture', validators=[FileAllowed(['jpg', 'png', 'jpeg'])])
     submit = SubmitField('Upload Patient Scan')
-
-class EventForm(FlaskForm):
-    date = DateField("Meeting Day", validators = [DataRequired()])
-    doctors = BooleanField('Doctors')
-    receptionists = BooleanField('Receptionists')
-    technicians = BooleanField('Technicians')
-    submit = SubmitField('Notify Staff')
